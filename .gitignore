@@ -1,2 +1,3 @@
 dists/*.gz
 dists/*.bz2
+dzil-bootstrap-*.tar*
