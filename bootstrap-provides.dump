@@ -1,0 +1,146 @@
+{
+  'Dist::Zilla::Role::Git::Repo' => {
+    'version' => '2.042',
+    'file' => 'lib/Dist/Zilla/Role/Git/Repo.pm'
+  },
+  'Dist::Zilla::Plugin::Git::Tag' => {
+    'version' => '2.042',
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Tag.pm'
+  },
+  'Dist::Zilla::Plugin::GithubMeta' => {
+    'version' => '0.54',
+    'file' => 'lib/Dist/Zilla/Plugin/GithubMeta.pm'
+  },
+  'Pod::Weaver::Plugin::TaskWeaver' => {
+    'version' => '0.101628',
+    'file' => 'lib/Pod/Weaver/Plugin/TaskWeaver.pm'
+  },
+  'Dist::Zilla::Plugin::Test::ChangesHasContent' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Test/ChangesHasContent.pm',
+    'version' => '0.010'
+  },
+  'Dist::Zilla::Plugin::Git::Check' => {
+    'version' => '2.042',
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Check.pm'
+  },
+  'Dist::Zilla::Plugin::CheckPrereqsIndexed' => {
+    'file' => 'lib/Dist/Zilla/Plugin/CheckPrereqsIndexed.pm',
+    'version' => '0.020'
+  },
+  'Dist::Zilla::Plugin::Git::Init' => {
+    'version' => '2.042',
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Init.pm'
+  },
+  'Dist::Zilla::Plugin::PromptIfStale' => {
+    'version' => '0.054',
+    'file' => 'lib/Dist/Zilla/Plugin/PromptIfStale.pm'
+  },
+  'Dist::Zilla::Plugin::PodWeaver' => {
+    'file' => 'lib/Dist/Zilla/Plugin/PodWeaver.pm',
+    'version' => '4.008'
+  },
+  'Dist::Zilla::Plugin::Git::Push' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Push.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::RunExtraTests' => {
+    'version' => '0.029',
+    'file' => 'lib/Dist/Zilla/Plugin/RunExtraTests.pm'
+  },
+  'Dist::Zilla::Plugin::CheckExtraTests' => {
+    'version' => '0.029',
+    'file' => 'lib/Dist/Zilla/Plugin/CheckExtraTests.pm'
+  },
+  'Dist::Zilla::App::Command::xtest' => {
+    'file' => 'lib/Dist/Zilla/App/Command/xtest.pm',
+    'version' => '0.029'
+  },
+  'Dist::Zilla::PluginBundle::Git' => {
+    'file' => 'lib/Dist/Zilla/PluginBundle/Git.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::Breaks' => {
+    'version' => '0.004',
+    'file' => 'lib/Dist/Zilla/Plugin/Breaks.pm'
+  },
+  'Dist::Zilla::Plugin::Git::Commit' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Commit.pm',
+    'version' => '2.042'
+  },
+  'Pod::Weaver::PluginBundle::RJBS' => {
+    'version' => '5.010',
+    'file' => 'lib/Pod/Weaver/PluginBundle/RJBS.pm'
+  },
+  'Dist::Zilla::Plugin::EnsureNotStale' => {
+    'file' => 'lib/Dist/Zilla/Plugin/EnsureNotStale.pm',
+    'version' => '0.054'
+  },
+  'Dist::Zilla::Plugin::Test::CheckBreaks' => {
+    'version' => '0.019',
+    'file' => 'lib/Dist/Zilla/Plugin/Test/CheckBreaks.pm'
+  },
+  'Dist::Zilla::PluginBundle::RJBS' => {
+    'version' => '5.010',
+    'file' => 'lib/Dist/Zilla/PluginBundle/RJBS.pm'
+  },
+  'Dist::Zilla::Role::Git::StringFormatter' => {
+    'file' => 'lib/Dist/Zilla/Role/Git/StringFormatter.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::Git::CommitBuild' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/CommitBuild.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::Git' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::TaskWeaver' => {
+    'file' => 'lib/Dist/Zilla/Plugin/TaskWeaver.pm',
+    'version' => '0.101628'
+  },
+  'Dist::Zilla::Plugin::Git::NextVersion' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/NextVersion.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::Git::Contributors' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/Contributors.pm',
+    'version' => '0.030'
+  },
+  'Dist::Zilla::Role::ModuleMetadata' => {
+    'version' => '0.004',
+    'file' => 'lib/Dist/Zilla/Role/ModuleMetadata.pm'
+  },
+  'Dist::Zilla::Role::Git::DirtyFiles' => {
+    'file' => 'lib/Dist/Zilla/Role/Git/DirtyFiles.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::Git::GatherDir' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Git/GatherDir.pm',
+    'version' => '2.042'
+  },
+  'Dist::Zilla::Plugin::CheckChangesHasContent' => {
+    'version' => '0.010',
+    'file' => 'lib/Dist/Zilla/Plugin/CheckChangesHasContent.pm'
+  },
+  'Dist::Zilla::Plugin::OSPrereqs' => {
+    'file' => 'lib/Dist/Zilla/Plugin/OSPrereqs.pm',
+    'version' => '0.008'
+  },
+  'Dist::Zilla::App::Command::stale' => {
+    'file' => 'lib/Dist/Zilla/App/Command/stale.pm',
+    'version' => '0.054'
+  },
+  'Dist::Zilla::Plugin::Test::ReportPrereqs' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Test/ReportPrereqs.pm',
+    'version' => '0.027'
+  },
+  'Dist::Zilla::Plugin::Config::Git' => {
+    'file' => 'lib/Dist/Zilla/Plugin/Config/Git.pm',
+    'version' => '0.92'
+  },
+  'Dist::Zilla::Role::GitConfig' => {
+    'version' => '0.92',
+    'file' => 'lib/Dist/Zilla/Role/GitConfig.pm'
+  }
+}
