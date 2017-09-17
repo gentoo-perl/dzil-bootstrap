@@ -1,0 +1,106 @@
+# Dzil itself
+Dist::Zilla::Plugin::Breaks
+Dist::Zilla::Plugin::CPANFile
+Dist::Zilla::Plugin::MetaNoIndex
+Dist::Zilla::Plugin::MetaResources
+Dist::Zilla::Plugin::ModuleShareDirs
+Dist::Zilla::Plugin::OSPrereqs
+Dist::Zilla::Plugin::Prereqs
+Dist::Zilla::Plugin::RemovePrereqs
+Dist::Zilla::Plugin::Test::CheckBreaks
+Dist::Zilla::PluginBundle::RJBS
+# [Config::Git]
+Dist::Zilla::Role::Plugin
+# [Test::CheckBreaks]
+Dist::Zilla
+Dist::Zilla::File::InMemory
+Dist::Zilla::Role::FileGatherer
+Dist::Zilla::Role::FileMunger
+Dist::Zilla::Role::ModuleMetadata
+Dist::Zilla::Role::PrereqSource
+Dist::Zilla::Role::TextTemplate
+# [GithubMeta]
+Dist::Zilla
+Dist::Zilla::Role::MetaProvider
+# [CheckChangesHasContent]
+Dist::Zilla
+Dist::Zilla::File::InMemory
+Dist::Zilla::Role::BeforeRelease
+Dist::Zilla::Role::FileGatherer
+Dist::Zilla::Role::FileMunger
+Dist::Zilla::Role::TextTemplate
+# [CheckExtraTests]
+Dist::Zilla
+Dist::Zilla::App
+Dist::Zilla::Role::BeforeRelease
+Dist::Zilla::Role::TestRunner
+# [OSPrereqs]
+Dist::Zilla::Plugin::MakeMaker
+Dist::Zilla::Role::FileMunger
+Dist::Zilla::Role::MetaProvider
+# [Test::ReportPrereqs]
+Dist::Zilla
+Dist::Zilla::File::FromCode
+Dist::Zilla::File::InMemory
+Dist::Zilla::Role::FileGatherer
+Dist::Zilla::Role::PrereqSource
+# [Breaks]
+Dist::Zilla::Role::MetaProvider
+# [Git]
+Dist::Zilla
+Dist::Zilla::Plugin::GatherDir
+Dist::Zilla::Role::AfterBuild
+Dist::Zilla::Role::AfterMint
+Dist::Zilla::Role::AfterRelease
+Dist::Zilla::Role::BeforeRelease
+Dist::Zilla::Role::FilePruner
+Dist::Zilla::Role::GitConfig
+Dist::Zilla::Role::PluginBundle
+Dist::Zilla::Role::VersionProvider
+# [Git::Contributors]
+Dist::Zilla
+Dist::Zilla::Role::MetaProvider
+Dist::Zilla::Role::PrereqSource
+# [PromptIfStale]
+Dist::Zilla
+Dist::Zilla::App
+Dist::Zilla::Role::AfterBuild
+Dist::Zilla::Role::BeforeBuild
+Dist::Zilla::Role::BeforeRelease
+Dist::Zilla::Util::AuthorDeps
+# [Test::CheckBreaks]
+Dist::Zilla
+Dist::Zilla::File::InMemory
+Dist::Zilla::Role::FileGatherer
+Dist::Zilla::Role::FileMunger
+Dist::Zilla::Role::ModuleMetadata
+Dist::Zilla::Role::PrereqSource
+Dist::Zilla::Role::TextTemplate
+# Role::ModuleMetadata
+# NA
+# [CheckPrereqsIndexed]
+Dist::Zilla::Role::BeforeRelease
+# [PodWeaver]
+Dist::Zilla
+Dist::Zilla::Role::FileFinderUser
+Dist::Zilla::Role::FileMunger
+# [TaskWeaver]
+Dist::Zilla
+Dist::Zilla::Plugin::PodWeaver
+Dist::Zilla::Role::FileGatherer
+Dist::Zilla::Role::PrereqSource
+# [@RJBS]
+Dist::Zilla::Plugin::AutoPrereqs
+Dist::Zilla::Plugin::CheckExtraTests
+Dist::Zilla::Plugin::CheckPrereqsIndexed
+Dist::Zilla::Plugin::Git::Contributors
+Dist::Zilla::Plugin::GithubMeta
+Dist::Zilla::Plugin::PodWeaver
+Dist::Zilla::Plugin::PromptIfStale
+Dist::Zilla::Plugin::TaskWeaver
+Dist::Zilla::Plugin::Test::ChangesHasContent
+Dist::Zilla::Plugin::Test::ReportPrereqs
+Dist::Zilla::PluginBundle::Basic
+Dist::Zilla::PluginBundle::Filter
+Dist::Zilla::PluginBundle::Git
+Dist::Zilla::Role::PluginBundle::Easy
